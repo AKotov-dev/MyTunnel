@@ -1,10 +1,10 @@
 object MainForm: TMainForm
   Left = 315
-  Height = 182
+  Height = 193
   Top = 129
   Width = 717
   Caption = 'AutoSSH v0.1'
-  ClientHeight = 182
+  ClientHeight = 193
   ClientWidth = 717
   SessionProperties = 'Edit1.Text;Edit2.Text;Edit3.Text;Edit4.Text;Edit5.Text;Edit6.Text;Height;Width;Left;Top'
   LCLVersion = '4.4.0.0'
@@ -25,7 +25,7 @@ object MainForm: TMainForm
   object Label2: TLabel
     Left = 9
     Height = 17
-    Top = 44
+    Top = 47
     Width = 12
     Anchors = [akLeft]
     Caption = 'IP'
@@ -39,7 +39,7 @@ object MainForm: TMainForm
     Left = 39
     Height = 37
     Hint = 'Server IP or Domain'
-    Top = 34
+    Top = 37
     Width = 217
     Anchors = [akTop, akRight]
     BorderSpacing.Left = 5
@@ -53,7 +53,7 @@ object MainForm: TMainForm
     AnchorSideTop.Side = asrCenter
     Left = 286
     Height = 17
-    Top = 44
+    Top = 47
     Width = 53
     Caption = 'SSH Port'
   end
@@ -64,7 +64,7 @@ object MainForm: TMainForm
     Left = 348
     Height = 37
     Hint = 'Default: 22'
-    Top = 34
+    Top = 37
     Width = 200
     ParentShowHint = False
     ShowHint = True
@@ -74,7 +74,7 @@ object MainForm: TMainForm
   object Label5: TLabel
     Left = 8
     Height = 17
-    Top = 93
+    Top = 99
     Width = 27
     Anchors = [akLeft]
     Caption = 'User'
@@ -87,7 +87,7 @@ object MainForm: TMainForm
     Left = 39
     Height = 37
     Hint = 'Default: root'
-    Top = 83
+    Top = 89
     Width = 217
     BorderSpacing.Left = 4
     ParentShowHint = False
@@ -102,7 +102,7 @@ object MainForm: TMainForm
     AnchorSideTop.Side = asrCenter
     Left = 348
     Height = 37
-    Top = 83
+    Top = 89
     Width = 200
     BorderSpacing.Left = 4
     EchoMode = emPassword
@@ -114,7 +114,7 @@ object MainForm: TMainForm
     AnchorSideTop.Side = asrCenter
     Left = 286
     Height = 17
-    Top = 93
+    Top = 99
     Width = 58
     Anchors = [akTop]
     Caption = 'Password'
@@ -122,7 +122,7 @@ object MainForm: TMainForm
   object Label7: TLabel
     Left = 8
     Height = 17
-    Top = 146
+    Top = 155
     Width = 176
     Anchors = [akLeft]
     Caption = 'Forward this server local port'
@@ -134,7 +134,7 @@ object MainForm: TMainForm
     AnchorSideTop.Side = asrCenter
     Left = 188
     Height = 37
-    Top = 136
+    Top = 145
     Width = 116
     BorderSpacing.Left = 4
     TabOrder = 6
@@ -145,7 +145,7 @@ object MainForm: TMainForm
     AnchorSideTop.Control = Label7
     Left = 308
     Height = 17
-    Top = 146
+    Top = 155
     Width = 156
     BorderSpacing.Left = 4
     Caption = 'to my computer local port'
@@ -158,7 +158,7 @@ object MainForm: TMainForm
     AnchorSideRight.Side = asrBottom
     Left = 468
     Height = 37
-    Top = 136
+    Top = 145
     Width = 118
     BorderSpacing.Left = 4
     TabOrder = 7
@@ -471,7 +471,7 @@ object MainForm: TMainForm
     Left = 548
     Height = 37
     Hint = 'Show/Hide'
-    Top = 83
+    Top = 89
     Width = 37
     Anchors = [akTop, akLeft, akBottom]
     Glyph.Data = {

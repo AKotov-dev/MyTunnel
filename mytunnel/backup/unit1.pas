@@ -191,10 +191,16 @@ begin
 
     //Если это не первый запуск
     if (SERVER_IP_PREV <> '') and (SERVER_PORT_PREV <> '') then
+    begin
       //Очищаем старые ключи (переменные уже в памяти после загрузки формы)
-      S.Add('ssh-keygen -R "[' + SERVER_IP_PREV + ']:' + SERVER_PORT_PREV +
-        '" 2>/dev/null');
-    S.Add('');
+      if SERVER_PORT_PREV = '22' then
+        S.Add('ssh-keygen -R "' + SERVER_IP_PREV + '" 2>/dev/null')
+      else
+        S.Add('ssh-keygen -R "[' + SERVER_IP_PREV + ']:' + SERVER_PORT_PREV +
+          '" 2>/dev/null');
+
+      S.Add('');
+    end;
 
     //Получаем ключи с сервера (если сервер переустанавливался и сменил ip)
     S.Add('ssh-keyscan -q -p "' + Edit2.Text + '" "' + Edit1.Text +
