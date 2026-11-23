@@ -7,6 +7,8 @@
 - **RPM:** `gtk2`, `openssh`, `sshpass`, `systemd`
 - **DEB:** `libgtk2.0-0`, `openssh-client`, `sshpass`, `systemd`
 
+**Configuration files:** ~/.config/mytunnel
+
 ![MyTunnel screenshot](./Screenshot1.png)
 
 ## About
