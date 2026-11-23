@@ -25,4 +25,6 @@ MyTunnel uses systemd user services to manage the SSH tunnel and supports automa
 
 Connection settings are straightforward and intuitive. No additional instructions are required — simply fill in the connection fields and start the tunnel.
 
+**Security note:** SSH credentials are stored locally. Make sure your configuration directory is accessible only to your user account.
+
 **Useful information:** [Accessing the 3x-ui panel through an SSH tunnel (Russian)](https://github.com/AKotov-dev/SReality/blob/main/doc/hide_3x-ui.md)
