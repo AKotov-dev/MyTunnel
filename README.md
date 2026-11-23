@@ -1,4 +1,19 @@
 # MyTunnel
 Simple SSH tunnel manager  
-  
+
+- **Dependencies (RPM):** gtk2 openssh sshpass systemd
+- **Dependencies (DEB):** libgtk2.0-0 openssh-client sshpass systemd
+
 ![](./Screenshot1.png)
+
+### About
+
+MyTunnel is a simple graphical SSH tunnel manager for Linux.
+
+It allows you to create and manage SSH local port forwarding to access services running on a remote server.
+
+For example, MyTunnel can be used to securely access the **3x-ui web panel** hosted on a remote VPS without exposing the panel port to the public Internet.
+
+The application establishes an SSH connection and forwards a local port to the remote service. You can then access the panel through your local web browser.
+
+MyTunnel uses systemd user services to manage the SSH tunnel and supports automatic startup after system reboot.
