@@ -168,7 +168,7 @@ object MainForm: TMainForm
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
     Left = 609
-    Height = 37
+    Height = 38
     Top = 8
     Width = 100
     Anchors = [akTop, akRight]
@@ -184,8 +184,8 @@ object MainForm: TMainForm
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
     Left = 609
-    Height = 37
-    Top = 49
+    Height = 38
+    Top = 50
     Width = 100
     Anchors = [akTop, akLeft, akRight]
     BorderSpacing.Top = 4
@@ -200,7 +200,7 @@ object MainForm: TMainForm
     AnchorSideRight.Control = Button1
     Left = 585
     Height = 10
-    Top = 21
+    Top = 22
     Width = 20
     Anchors = [akTop, akRight]
     BorderSpacing.Right = 4
