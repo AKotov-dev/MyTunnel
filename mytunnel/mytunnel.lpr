@@ -55,8 +55,8 @@ begin
   }
 begin
   RequireDerivedFormResource := True;
-  Application.Title:='MyTunnel v0.1';
-  Application.Scaled:=True;
+  Application.Title := 'MyTunnel v0.1';
+  Application.Scaled := True;
   {$PUSH}
   {$WARN 5044 OFF}
   Application.MainFormOnTaskbar := True;
