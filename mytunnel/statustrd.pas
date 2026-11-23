@@ -58,9 +58,11 @@ begin
       ExProcess.Parameters.Clear;
       ExProcess.Parameters.Add('-c');
       ExProcess.Parameters.Add(
-        'systemctl --user --type=service --state=running | grep mytunnel');
+        'systemctl --user is-active mytunnel.service 2>/dev/null');
+
       ExProcess.Execute;
 
+      S.Clear;
       S.LoadFromStream(ExProcess.Output);
       Synchronize(@ShowRunningStatus);
 
@@ -73,7 +75,7 @@ end;
 
 procedure TStatusTRD.ShowRunningStatus;
 begin
-  if S.Count <> 0 then
+  if (S.Count > 0) and (Trim(S[0]) = 'active') then
     MainForm.Shape1.Brush.Color := clLime
   else
     MainForm.Shape1.Brush.Color := clYellow;
