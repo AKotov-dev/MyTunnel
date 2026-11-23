@@ -1,0 +1,71 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tmainform.button1.caption
+msgid "Start"
+msgstr ""
+
+#: tmainform.button2.caption
+msgid "Stop"
+msgstr ""
+
+#: tmainform.caption
+msgid "AutoSSH v0.1"
+msgstr ""
+
+#: tmainform.edit1.hint
+msgid "Server IP or Domain"
+msgstr ""
+
+#: tmainform.edit2.hint
+msgid "Default: 22"
+msgstr ""
+
+#: tmainform.edit2.text
+msgid "22"
+msgstr ""
+
+#: tmainform.edit3.hint
+msgid "Default: root"
+msgstr ""
+
+#: tmainform.edit3.text
+msgid "root"
+msgstr ""
+
+#: tmainform.edit6.text
+msgid "2222"
+msgstr ""
+
+#: tmainform.hidepassbtn.hint
+msgid "Show/Hide"
+msgstr ""
+
+#: tmainform.label1.caption
+msgid "CONNECTING TO SERVER..."
+msgstr ""
+
+#: tmainform.label2.caption
+msgid "IP"
+msgstr ""
+
+#: tmainform.label3.caption
+msgid "SSH Port"
+msgstr ""
+
+#: tmainform.label5.caption
+msgid "User"
+msgstr ""
+
+#: tmainform.label6.caption
+msgid "Password"
+msgstr ""
+
+#: tmainform.label7.caption
+msgid "Forward this server local port"
+msgstr ""
+
+#: tmainform.label8.caption
+msgid "to my computer local port"
+msgstr ""
+

@@ -1,0 +1,19 @@
+{"version":1,"strings":[
+{"hash":53159825,"name":"tmainform.caption","sourcebytes":[65,117,116,111,83,83,72,32,118,48,46,49],"value":"AutoSSH v0.1"},
+{"hash":201049886,"name":"tmainform.label1.caption","sourcebytes":[67,79,78,78,69,67,84,73,78,71,32,84,79,32,83,69,82,86,69,82,46,46,46],"value":"CONNECTING TO SERVER..."},
+{"hash":1248,"name":"tmainform.label2.caption","sourcebytes":[73,80],"value":"IP"},
+{"hash":161451438,"name":"tmainform.edit1.hint","sourcebytes":[83,101,114,118,101,114,32,73,80,32,111,114,32,68,111,109,97,105,110],"value":"Server IP or Domain"},
+{"hash":128283412,"name":"tmainform.label3.caption","sourcebytes":[83,83,72,32,80,111,114,116],"value":"SSH Port"},
+{"hash":209551314,"name":"tmainform.edit2.hint","sourcebytes":[68,101,102,97,117,108,116,58,32,50,50],"value":"Default: 22"},
+{"hash":850,"name":"tmainform.edit2.text","sourcebytes":[50,50],"value":"22"},
+{"hash":379330,"name":"tmainform.label5.caption","sourcebytes":[85,115,101,114],"value":"User"},
+{"hash":226171412,"name":"tmainform.edit3.hint","sourcebytes":[68,101,102,97,117,108,116,58,32,114,111,111,116],"value":"Default: root"},
+{"hash":497252,"name":"tmainform.edit3.text","sourcebytes":[114,111,111,116],"value":"root"},
+{"hash":145417188,"name":"tmainform.label6.caption","sourcebytes":[80,97,115,115,119,111,114,100],"value":"Password"},
+{"hash":40410692,"name":"tmainform.label7.caption","sourcebytes":[70,111,114,119,97,114,100,32,116,104,105,115,32,115,101,114,118,101,114,32,108,111,99,97,108,32,112,111,114,116],"value":"Forward this server local port"},
+{"hash":150033588,"name":"tmainform.label8.caption","sourcebytes":[116,111,32,109,121,32,99,111,109,112,117,116,101,114,32,108,111,99,97,108,32,112,111,114,116],"value":"to my computer local port"},
+{"hash":218450,"name":"tmainform.edit6.text","sourcebytes":[50,50,50,50],"value":"2222"},
+{"hash":5941396,"name":"tmainform.button1.caption","sourcebytes":[83,116,97,114,116],"value":"Start"},
+{"hash":371552,"name":"tmainform.button2.caption","sourcebytes":[83,116,111,112],"value":"Stop"},
+{"hash":111392341,"name":"tmainform.hidepassbtn.hint","sourcebytes":[83,104,111,119,47,72,105,100,101],"value":"Show/Hide"}
+]}

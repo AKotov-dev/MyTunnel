@@ -1,0 +1,15 @@
+[Unit]
+Description=MyTunnel (SSH Tunnel)
+
+Wants=network-online.target
+After=network.target
+
+[Service]
+ExecStartPre=-killall -9 sshpass autossh.sh
+ExecStart=%h/.config/mytunnel/start.sh
+
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
