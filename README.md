@@ -21,7 +21,7 @@ For example, MyTunnel can be used to securely access the **3x-ui web panel** hos
 
 The application establishes an SSH connection and forwards a local port to the remote service. You can then access the panel through your local web browser.
 
-MyTunnel uses systemd user services to manage the SSH tunnel and supports automatic startup at system boot.
+MyTunnel manages the SSH tunnel through a systemd user service. The service is automatically enabled for startup at boot when you click **Start** and disabled when you click **Stop**. No manual systemd configuration is required.
 
 Connection settings are straightforward and intuitive. No additional instructions are required — simply fill in the connection fields and start the tunnel.
 
